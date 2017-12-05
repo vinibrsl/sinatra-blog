@@ -6,7 +6,7 @@ class Post
     self.content = content
   end
 
-  def to_s
-    "#{title}\n#{content}"
+  def to_html
+    "<h2>#{title}</h2><br />#{content}</p><br />"
   end
 end

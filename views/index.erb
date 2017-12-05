@@ -1,2 +1,8 @@
 <h1>Sinatra Blog</h1>
 <p>Check some of the blogs or <a href="/new">create your own</a></p>
+
+<% @posts.each do |post| %>
+  <div>
+    <%= post %>
+  </div>
+<% end %>

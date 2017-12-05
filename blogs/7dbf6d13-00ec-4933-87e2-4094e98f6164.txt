@@ -1,5 +1,4 @@
-My first blog
-EFEITOS A LONGO PRAZO
+<h2>O que é uma função pura?</h2><br />EFEITOS A LONGO PRAZO
 Danos permanentes nos vasos sanguíneos do coração e do cérebro, pressão sanguínea alta levando a ataques cardíacos, derrames cerebrais e à morte
 Danos no fígado, rins e pulmões
 Se for cheirada, ocorre a destruição dos tecidos nasais
@@ -10,4 +9,4 @@ Desorientação, apatia, exaustão e confusão
 Forte dependência psicológica
 Psicose
 Depressão
-Danos no cérebro, incluindo derrames e possivelmente epilepsia
+Danos no cérebro, incluindo derrames e possivelmente epilepsia</p><br />
