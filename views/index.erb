@@ -2,7 +2,8 @@
 <p>Check some of the blogs or <a href="/new">create your own</a></p>
 
 <% @posts.each do |post| %>
-  <div>
-    <%= post %>
-  </div>
+<article>
+  <b><%= post.title %></b>
+  <p><%= post.content %></p>
+</article>
 <% end %>

@@ -4,7 +4,7 @@ require 'securerandom'
 require_relative 'model/post'
 
 get '/' do
-  @posts = read_files()
+  @posts = read_files
   erb :index
 end
 
@@ -20,15 +20,15 @@ end
 
 def create_file(post)
   File.open("blogs/#{SecureRandom.uuid}.txt", 'w') do |file|
-    file.print post.to_html
+    file.print(post.to_text)
   end
 end
 
-def read_files()
+def read_files
   blogs = []
-  Dir.foreach("blogs").each do |filename|
+  Dir["blogs/*.txt"].each do |filename|
     begin
-      blogs << File.read("blogs/#{filename}")
+      blogs << Post::from_text(File.read(filename))
     rescue StandardError => ex
       p ex
     end
