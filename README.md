@@ -1,2 +1,2 @@
-# sinatra-blog
-🎙 simple blog implementation using Sinatra
+# Sinatra Blog
+🎙 The simplest blog implementation using Sinatra
