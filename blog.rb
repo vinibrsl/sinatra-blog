@@ -3,6 +3,8 @@ require 'securerandom'
 
 require_relative 'model/post'
 
+set :static_cache_control, [:public, max_age: 60 * 60 * 24 * 365]
+
 get '/' do
   @posts = read_files
   erb :index
