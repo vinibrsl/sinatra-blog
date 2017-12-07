@@ -15,7 +15,7 @@ article {
   margin-left: 10px;
 }
 
-article div {
+article * {
   margin-left: 10px;
 }
 
@@ -27,4 +27,21 @@ article div {
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #cccccc;
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 1px solid #cccccc;
 }
