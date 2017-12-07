@@ -2,6 +2,10 @@ html * {
   font-family: Helvetica;
 }
 
+body {
+  margin: 20px;
+}
+
 h1 {
   color: tomato;
 }
