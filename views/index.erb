@@ -1,9 +1,12 @@
+
 <h1>Sinatra Blog</h1>
-<p>Check some of the blogs or <a href="/new">create your own</a></p>
+<p>Check some of the blogs or <a class="button" href="/new">create your own</a></p>
 
 <% @posts.each do |post| %>
 <article>
-  <b><%= post.title %></b>
-  <p><%= post.content %></p>
+  <div>
+    <b><%= post.title %></b>
+    <p><%= post.content %></p>
+  </div>
 </article>
 <% end %>

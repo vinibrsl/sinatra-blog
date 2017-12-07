@@ -1,0 +1,26 @@
+html * {
+  font-family: Helvetica;
+}
+
+h1 {
+  color: tomato;
+}
+
+article {
+  border-left: 6px solid tomato!important;
+  margin-left: 10px;
+}
+
+article div {
+  margin-left: 10px;
+}
+
+.button {
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
