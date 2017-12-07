@@ -34,3 +34,5 @@ build-iPhoneSimulator/
 
 # macOS specific
 .DS_Store
+
+/blogs/
