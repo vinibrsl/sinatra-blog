@@ -30,7 +30,7 @@ def read_files
   blogs = []
   Dir['blogs/*.txt'].each do |filename|
     begin
-      blogs << Post::from_text(File.read(filename))
+      blogs << Post.from_text(File.read(filename))
     rescue StandardError => ex
       p ex
     end
