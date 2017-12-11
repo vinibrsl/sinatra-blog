@@ -17,11 +17,10 @@ class Post
     Post.new(raw_post[0], raw_post[1])
   end
 
-private
+  private
 
   def escape_string(str)
-    str = CGI::escapeHTML(str)
+    str = CGI.escapeHTML(str)
     str.gsub "\n", '<br>'
   end
-
 end
